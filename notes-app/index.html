@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+    </head>
+
+    <body>
+       <h1>Notes App</h1>
+       <h3> Take notes and never forget</h3>
+       <input id='search-text' type="text" placeholder="Filter Notes">
+       <select name="filterBy" id="filter-by">
+           <option value="byEdited">Sort by last edited</option>
+           <option value="byCreated">Sort by recently created</option>
+           <option value="alphabetical">Sort alphabetically</option>
+       </select>
+       <div id='notes'></div>
+       <button id='create-note'>Create Note</button>
+       <!-- <button id='remove-all'>Remove all Notes</button> -->
+       <!-- <form id="name-form" action="submit">
+           <input type="text" placeholder="First Name" name="firstName">
+           <button>Submit</button>
+       </form> -->
+       <!-- <label>
+           <input id="for-fun" type="checkbox"> Check me for Fun
+       </label> -->
+       
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script>
+       <script src= "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+       <script src="notes-functions.js"></script>
+       <script src="notes-app.js"></script>
+    </body>
+</html>
